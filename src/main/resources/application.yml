@@ -1,0 +1,16 @@
+userbody:
+  name: 优就业
+  password: 123456
+  birthday: 1992.10.28
+  mobile: 13802789765
+  address: 北京市朝阳区
+
+server:
+  port: 8080
+spring:
+  profiles:
+    active: port
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
